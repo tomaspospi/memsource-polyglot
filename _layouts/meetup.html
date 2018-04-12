@@ -27,7 +27,7 @@ layout: page
 {% endif %}
 
 <div class="centered">
-    <a class="btn btn-large" href="#register">REGISTER NOW</a>
+    <a class="btn btn-large" href="#register">{{ page.register_now }}</a>
 </div>
 
 <section class="page-section">
@@ -52,21 +52,7 @@ layout: page
             </p>
         {% endfor %}
 
-        <p class="bold">
-            Please also join us on Thursday, March 15, 7:00 pm at Hurricane’s for<br>
-            “A Bit o’ Craic,” with Translators Without Borders
-            <a class="float-right" href="{{ '/uploads/2018/04/12/TWB-Boston-Logo.png' | relative_url }}"><img src="{{ '/uploads/2018/04/12/TWB-Boston-Logo-300x252.png' | relative_url }}" alt="" width="150" height="126"></a>
-        </p>
-
-        <p>
-            Memsource is proud to be partnering with <a href="https://www.translatorswithoutborders.org" target="_blank">Translators Without Borders</a> for an evening of Irish music, drinks, giveaways, and fun! Come down and help raise funds for a great cause.
-        </p>
-
-        <p>
-            <a href="https://www.google.com/maps/place/Hurricane's+at+the+Garden/@42.3648176,-71.0629828,17z/data=!3m1!4b1!4m5!3m4!1s0x89e3708e325b05ad:0xe11ddd5e9c5ee75e!8m2!3d42.3648137!4d-71.0607941" target="_blank">
-                Google Map – Hurricane’s Boston
-            </a>
-        </p>
+        {{ page.extra_info | markdownify  }}
 
     </div>
 
@@ -120,7 +106,7 @@ layout: page
             <input type="text" name="company-name" id="company-name" placeholder="Company Name*" required>
             <input type="text" name="job-title" id="job-title" placeholder="Job Title*" required>
 
-            <button class="btn btn-small" type="submit">Register now</button>
+            <button class="btn btn-small" type="submit">{{ page.register_now }}</button>
         
         </form>
     
