@@ -9,6 +9,7 @@ location:
   place: Room 107
 permalink: user-meet-up-boston-2018
 lang: en
+layout: page
 ---
 Join our 8th **Memsource User Meetup** for a chance  to learn about the latest and upcoming developments at Memsource,  engage in conversation about industry trends, meet other Memsource  users, ask questions and provide feedback.
 
