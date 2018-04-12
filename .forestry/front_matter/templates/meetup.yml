@@ -38,3 +38,6 @@ fields:
   default: meetup
   config:
     required: true
+- type: text
+  name: register_now
+  label: register now
