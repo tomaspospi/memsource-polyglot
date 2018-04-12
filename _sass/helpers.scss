@@ -1,0 +1,55 @@
+.wrapper {
+    max-width: 1000px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.float-right {
+    float: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.big-font-size {
+    font-size: 24px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #666;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    &:hover {
+        color: #fff;
+        background-color: darken(#666, 10%);
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+.btn-large {
+    font-size: 20px;
+    padding: 1em;
+}
+
+.btn-small {
+    font-size: 14px;
+    padding: .5em;
+}
+
+.col {
+    float: left;
+}
+
+.col-1-2 {
+    width: 50%;
+}
+
+.map iframe {
+    width: 100%;
+}
