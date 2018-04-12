@@ -27,7 +27,9 @@ github_username:  jekyll
 languages: ["en", "ja"]
 default_lang: "en"
 exclude_from_localization: ["assets","javascript", "images", "css"]
-parallel_localization: true
+parallel_localization: false
+
+permalink: pretty
 
 # Build settings
 markdown: kramdown
