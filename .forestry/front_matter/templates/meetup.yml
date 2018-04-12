@@ -33,5 +33,7 @@ fields:
 - type: text
   name: layout
   label: layout
-  hidden: false
+  hidden: true
   default: page
+  config:
+    required: true
