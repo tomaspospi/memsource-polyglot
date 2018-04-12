@@ -1,6 +1,4 @@
 ---
-pages:
-- memsource-user-meetup-boston.md
 hide_body: false
 fields:
 - type: text
@@ -30,3 +28,8 @@ fields:
   label: lang
   config:
     required: true
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+  default: page
