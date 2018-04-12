@@ -34,6 +34,6 @@ fields:
   name: layout
   label: layout
   hidden: true
-  default: page
+  default: meetup
   config:
     required: true
