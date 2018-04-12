@@ -1,0 +1,133 @@
+---
+layout: page
+---
+
+<p class="centered">
+    {{ page.event_date }}
+</p>
+
+<p class="centered">
+    {% if page.location.url %}
+        <a href="{{ page.location.url }}" target="_blank">
+            {{- page.location.name -}}
+        </a>        
+    {% else %}
+        {{ page.location.name }}
+    {% endif %}
+
+    {% if page.location.directions %}
+        ({{ page.location.directions }})
+    {% endif %}
+</p>
+
+{% if page.location.place %}
+    <p class="centered">
+        {{ page.location.place }}
+    </p>
+{% endif %}
+
+<div class="centered">
+    <a class="btn btn-large" href="#register">REGISTER NOW</a>
+</div>
+
+<section class="page-section">
+
+    {{ content }}
+
+</section>
+
+<section class="page-section section-program">
+
+    <header class="section-header">
+        <h1 class="section-title">
+            {{ site.data.program.title }}
+        </h1>
+    </header>
+
+    <div class="section-content">
+    
+        {% for item in site.data.program.items %}
+            <p>
+                <strong>{{ item.time }}</strong> {{ item.description }}
+            </p>
+        {% endfor %}
+
+        <p class="bold">
+            Please also join us on Thursday, March 15, 7:00 pm at Hurricane’s for<br>
+            “A Bit o’ Craic,” with Translators Without Borders
+            <a class="float-right" href="{{ '/uploads/2018/04/04/TWB-Boston-Logo.png' | relative_url }}"><img src="{{ '/uploads/2018/04/04/TWB-Boston-Logo-300x252.png' | relative_url }}" alt="" width="150" height="126"></a>
+        </p>
+
+        <p>
+            Memsource is proud to be partnering with <a href="https://www.translatorswithoutborders.org" target="_blank">Translators Without Borders</a> for an evening of Irish music, drinks, giveaways, and fun! Come down and help raise funds for a great cause.
+        </p>
+
+        <p>
+            <a href="https://www.google.com/maps/place/Hurricane's+at+the+Garden/@42.3648176,-71.0629828,17z/data=!3m1!4b1!4m5!3m4!1s0x89e3708e325b05ad:0xe11ddd5e9c5ee75e!8m2!3d42.3648137!4d-71.0607941" target="_blank">
+                Google Map – Hurricane’s Boston
+            </a>
+        </p>
+
+    </div>
+
+</section>
+
+<section class="page-section section-program">
+
+    <header class="section-header">
+        <h1 class="section-title">
+            {{ site.data.speakers.title }}
+        </h1>
+    </header>
+
+    <div class="speakers">
+
+        {% for speaker in site.data.speakers.items %}
+            <div class="speaker">
+
+                <div class="speaker-photo">
+                    <img src="{{ speaker.photo | relative_url }}" alt="">
+                </div>
+
+                <div class="speaker-name">
+                    {{ speaker.name }}
+                </div>
+
+                <div class="speaker-description">
+                    {{ speaker.description }}
+                </div>
+
+            </div>        
+        {% endfor %}
+
+    </div>
+
+</section>
+
+<section class="page-section">
+
+    <div class="col col-1-2 map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23591.556260147277!2d-71.11136430134705!3d42.343705932926696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a0febee848b%3A0xbce6f9a63000697b!2sJohn+B.+Hynes+Veterans+Memorial+Convention+Center!5e0!3m2!1sen!2sit!4v1513938738498" style="border: 0px none; pointer-events: none;" allowfullscreen="" frameborder="0" width="600" height="450"></iframe>
+    </div>
+
+    <div class="col col-1-2">
+    
+        <form id="register" name="register-form" class="register-form" method="POST" netlify>
+        
+            <input type="text" name="first-name" id="first-name" placeholder="First Name*" required>
+            <input type="text" name="last-name" id="last-name" placeholder="Last Name*" required>
+            <input type="email" name="email" id="email" placeholder="Email Address*" required>
+            <input type="text" name="company-name" id="company-name" placeholder="Company Name*" required>
+            <input type="text" name="job-title" id="job-title" placeholder="Job Title*" required>
+
+            <button class="btn btn-small" type="submit">Register now</button>
+        
+        </form>
+    
+    </div>
+
+</section>
+
+<p class="centered big-font-size">
+    For further information, please contact us at <a href="mailto:events@memsource.com">events@memsource.com</a>
+</p>
