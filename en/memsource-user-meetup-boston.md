@@ -9,7 +9,14 @@ location:
   place: Room 107
 permalink: user-meet-up-boston-2018
 lang: en
-layout: meetup
+layout: page
+register_now: Register Now
+extra_info: |-
+  **Please also join us on Thursday, March 15, 7:00 pm at Hurricane’s for “A Bit o’ Craic,” with Translators Without Borders.**
+
+  Memsource is proud to be partnering with [Translators Without Borders](https://www.translatorswithoutborders.org) for an evening of Irish music, drinks, giveaways, and fun! Come down and help raise funds for a great cause.
+
+  [Google Map – Hurricane’s Boston](https://www.google.com/maps/place/Hurricane's+at+the+Garden/@42.3648176,-71.0629828,17z/data=!3m1!4b1!4m5!3m4!1s0x89e3708e325b05ad:0xe11ddd5e9c5ee75e!8m2!3d42.3648137!4d-71.0607941)
 ---
 Join our 8th **Memsource User Meetup** for a chance  to learn about the latest and upcoming developments at Memsource,  engage in conversation about industry trends, meet other Memsource  users, ask questions and provide feedback.
 
