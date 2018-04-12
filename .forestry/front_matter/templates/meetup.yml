@@ -1,0 +1,30 @@
+---
+hide_body: false
+fields:
+- type: text
+  label: event date
+  name: event_date
+- type: field_group
+  label: Location
+  name: location
+  fields:
+  - type: text
+    name: name
+    label: Name
+  - type: text
+    name: url
+    label: url
+  - type: text
+    name: directions
+    label: directions
+  - type: text
+    name: place
+    label: place
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: lang
+  label: lang
+  config:
+    required: true
