@@ -41,3 +41,10 @@ fields:
 - type: text
   name: register_now
   label: register now
+- type: textarea
+  name: extra_info
+  label: Extra info
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
