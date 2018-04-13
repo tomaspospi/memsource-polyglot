@@ -67,3 +67,13 @@ fields:
   - type: text
     name: job_title_label
     label: job title label
+- type: text
+  name: contact_message
+  label: Contact message
+- type: textarea
+  name: contact_message
+  label: Contact message
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
