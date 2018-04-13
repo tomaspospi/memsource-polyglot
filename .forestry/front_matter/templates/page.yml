@@ -1,8 +1,11 @@
 ---
-pages:
-- en/index.md
 hide_body: false
 fields:
+- type: text
+  name: page_title
+  label: Page title
+  config:
+    required: true
 - type: text
   name: permalink
   label: permalink
@@ -18,3 +21,4 @@ fields:
     - en
     - ja
   label: lang
+  default: en
