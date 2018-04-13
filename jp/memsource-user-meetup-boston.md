@@ -27,6 +27,7 @@ register_form:
   job_title_label: "ジョブチ"
   form_name: ''
 contact_message: "詳細については、にお問い合わせください [events@memsource.com](mailto:events@memsource.com)"
+page_title: Memsourceユーザーミートアップボストン
 ---
 ouに参加する エイグス **Memsourceユーザーミートアップ** Memsourceの最新および今後の開発について学び、業界動向に関する会話に参加し、他のMemsourceユーザーと会い、質問し、フィードバックを提供する機会を得る.         
 
