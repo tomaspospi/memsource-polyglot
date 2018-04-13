@@ -25,11 +25,15 @@ fields:
 - type: text
   name: permalink
   label: permalink
-- type: text
+- type: select
   name: lang
-  label: lang
   config:
-    required: true
+    source:
+      type: simple
+    options:
+    - en
+    - ja
+  label: lang
 - type: text
   name: layout
   label: layout
@@ -73,12 +77,3 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-- type: select
-  name: lang
-  config:
-    source:
-      type: simple
-    options:
-    - en
-    - ja
-  label: lang
