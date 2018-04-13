@@ -4,6 +4,11 @@ pages:
 hide_body: false
 fields:
 - type: text
+  name: page_title
+  label: Page title
+  config:
+    required: true
+- type: text
   label: event date
   name: event_date
 - type: field_group
