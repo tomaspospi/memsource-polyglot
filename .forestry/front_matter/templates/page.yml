@@ -1,7 +1,4 @@
 ---
-pages:
-- jp/index.md
-- en/index.md
 hide_body: false
 fields:
 - type: text
