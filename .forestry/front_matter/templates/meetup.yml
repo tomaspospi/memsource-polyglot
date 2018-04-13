@@ -33,7 +33,7 @@ fields:
 - type: text
   name: layout
   label: layout
-  hidden: false
+  hidden: true
   default: meetup
   config:
     required: true
