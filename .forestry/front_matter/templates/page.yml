@@ -25,3 +25,8 @@ fields:
     - ja
   label: lang
   default: en
+- type: text
+  name: layout
+  label: layout
+  config:
+    required: true
