@@ -100,11 +100,11 @@ layout: page
     
         <form id="register" name="register-form" class="register-form" method="POST" netlify>
         
-            <input type="text" name="first-name" id="first-name" placeholder="First Name*" required>
-            <input type="text" name="last-name" id="last-name" placeholder="Last Name*" required>
-            <input type="email" name="email" id="email" placeholder="Email Address*" required>
-            <input type="text" name="company-name" id="company-name" placeholder="Company Name*" required>
-            <input type="text" name="job-title" id="job-title" placeholder="Job Title*" required>
+            <input type="text" name="first-name" id="first-name" placeholder="{{ page.register_form.first_name_label }}*" required>
+            <input type="text" name="last-name" id="last-name" placeholder="{{ page.register_form.last_name_label }}*" required>
+            <input type="email" name="email" id="email" placeholder="{{ page.register_form.email_label }}*" required>
+            <input type="text" name="company-name" id="company-name" placeholder="{{ page.register_form.company_name_label }}*" required>
+            <input type="text" name="job-title" id="job-title" placeholder="{{ page.register_form.job_title_label }}*" required>
 
             <button class="btn btn-small" type="submit">{{ page.register_now }}</button>
         
