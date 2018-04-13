@@ -10,7 +10,7 @@ location:
 permalink: user-meet-up-boston-2018
 lang: en
 layout: meetup
-register_now: Register Now
+register_now: Register Now 3
 extra_info: |-
   **Please also join us on Thursday, March 15, 7:00 pm at Hurricane’s for “A Bit o’ Craic,” with Translators Without Borders.**
 
