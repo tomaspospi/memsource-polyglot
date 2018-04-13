@@ -1,0 +1,13 @@
+---
+hide_body: false
+fields:
+- type: text
+  name: permalink
+  label: permalink
+  config:
+    required: true
+- type: text
+  name: lang
+  label: lang
+  config:
+    required: true
