@@ -27,7 +27,7 @@ github_username:  jekyll
 languages: ["en", "ja"]
 default_lang: "en"
 exclude_from_localization: ["assets","javascript", "images", "css"]
-parallel_localization: false
+parallel_localization: true
 
 permalink: pretty
 
