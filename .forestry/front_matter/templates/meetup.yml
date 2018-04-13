@@ -73,3 +73,12 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: select
+  name: lang
+  config:
+    source:
+      type: simple
+    options:
+    - en
+    - ja
+  label: lang
