@@ -6,8 +6,13 @@ fields:
   label: permalink
   config:
     required: true
-- type: text
+- type: select
   name: lang
-  label: lang
   config:
+    source:
+      type: simple
     required: true
+    options:
+    - en
+    - ja
+  label: lang
