@@ -1,0 +1,15 @@
+<ul class="langs-selector">
+    {% for lang in site.languages %}
+
+        <li>
+            <a {% if lang == site.active_lang %}style="font-weight: bold;"{% endif %} href="{% if lang == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ lang }}{{page.url}} {% endif %}">
+                {% if lang == 'ja' %}
+                    jp
+                {% else %}
+                    {{ lang }}
+                {% endif %}
+            </a>
+        </li>
+
+    {% endfor %}
+</ul>
