@@ -48,3 +48,25 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: field_group
+  name: register_form
+  label: Register form
+  fields:
+  - type: text
+    name: form_name
+    label: Form name
+  - type: text
+    name: first_name_label
+    label: First name label
+  - type: text
+    name: last_name_label
+    label: last name label
+  - type: text
+    name: email_label
+    label: email label
+  - type: text
+    name: company_name_label
+    label: company name label
+  - type: text
+    name: job_title_label
+    label: job title label
