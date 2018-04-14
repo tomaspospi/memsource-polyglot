@@ -28,6 +28,15 @@ register_form:
   form_name: ''
 contact_message: "詳細については、にお問い合わせください [events@memsource.com](mailto:events@memsource.com)"
 page_title: Memsourceユーザーミートアップボストン
+speakers:
+  title: "スピーカー"
+  speakers:
+  - name: David Canek
+    description: MemsourceのCEOおよびヘッド
+    photo: "/uploads/2018/04/12/WP-DAVID-150x150.png"
+  - name: Christophe Eyraud
+    description: "ソリューションアーキテクト, Semantix"
+    photo: "/uploads/2018/04/12/Christophe_Eyraud_2_circle-150x150.jpg"
 ---
 ouに参加する エイグス **Memsourceユーザーミートアップ** Memsourceの最新および今後の開発について学び、業界動向に関する会話に参加し、他のMemsourceユーザーと会い、質問し、フィードバックを提供する機会を得る.         
 
