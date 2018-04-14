@@ -38,8 +38,27 @@ speakers:
     description: "ソリューションアーキテクト, Semantix"
     photo: "/uploads/2018/04/12/Christophe_Eyraud_2_circle-150x150.jpg"
 program:
-  title: ''
-  items: []
+  title: "プログラム"
+  items:
+  - time: 3:00 午後
+    description: "ウェルカムドリンク"
+  - time: 3:15 午後
+    description: "開会の挨拶"
+  - time: 3:30 午後
+    description: "**未来への展望：MemsourceのAI機能** MemsourceのCEO David Canek氏"
+  - time: 3:45 午後
+    description: "排他的 **Memsource AIを用いた非翻訳文の事例研究** 〜によって Semantix Solutions 建築家 Christophe
+      Eyraud"
+  - time: 4:00 午後
+    description: "デイビッドはMemsourcの次のことを垣間見る"
+  - time: 4:15 午後
+    description: Q&A セッション
+  - time: 4:30 午後
+    description: "グループ写真とネットワーキング"
+  - time: 5:00 午後
+    description: "閉会の言葉"
+  - time: 6:00 午後
+    description: "[GALAカンファレンスの歓迎レセプション](https://www.gala-global.org/conference/gala-2018-boston/evening-activities)"
 ---
 ouに参加する エイグス **Memsourceユーザーミートアップ** Memsourceの最新および今後の開発について学び、業界動向に関する会話に参加し、他のMemsourceユーザーと会い、質問し、フィードバックを提供する機会を得る.         
 
