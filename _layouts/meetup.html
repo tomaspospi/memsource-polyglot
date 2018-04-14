@@ -40,15 +40,15 @@ layout: page
 
     <header class="section-header">
         <h1 class="section-title">
-            {{ site.data.program.title }}
+            {{ page.program.title }}
         </h1>
     </header>
 
     <div class="section-content">
     
-        {% for item in site.data.program.items %}
+        {% for item in page.program.items %}
             <p>
-                <strong>{{ item.time }}</strong> {{ item.description }}
+                <strong>{{ item.time }}</strong> {{ item.description | markdownify | remove: '<p>' | remove: '</p>' }}
             </p>
         {% endfor %}
 
@@ -62,13 +62,13 @@ layout: page
 
     <header class="section-header">
         <h1 class="section-title">
-            {{ site.data.speakers.title }}
+            {{ page.speakers.title }}
         </h1>
     </header>
 
     <div class="speakers">
 
-        {% for speaker in site.data.speakers.items %}
+        {% for speaker in page.speakers.speakers %}
             <div class="speaker">
 
                 <div class="speaker-photo">
