@@ -34,6 +34,7 @@ speakers:
     photo: "/uploads/2018/04/12/WP-DAVID-150x150.png"
   - name: Christophe Eyraud
     description: Solutions Architect, Semantix
+    photo: "/uploads/2018/04/12/Christophe_Eyraud_2_circle-150x150.jpg"
 ---
 Join our 8th **Memsource User Meetup** for a chance  to learn about the latest and upcoming developments at Memsource,  engage in conversation about industry trends, meet other Memsource  users, ask questions and provide feedback.
 
