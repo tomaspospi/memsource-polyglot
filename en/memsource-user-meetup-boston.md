@@ -35,6 +35,29 @@ speakers:
   - name: Christophe Eyraud
     description: Solutions Architect, Semantix
     photo: "/uploads/2018/04/12/Christophe_Eyraud_2_circle-150x150.jpg"
+program:
+  title: Program
+  items:
+  - time: 3:00 pm
+    description: Welcome refreshments
+  - time: 3:15 pm
+    description: Opening remarks
+  - time: 3:30 pm
+    description: "**Looking to the Future: AI-powered Features in Memsource** by Memsource
+      CEO David Canek"
+  - time: 3:45 pm
+    description: Exclusive **Case Study on Memsource AI-powered Non-translatables**
+      by Semantix Solutions Architect Christophe Eyraud
+  - time: 4:00 pm
+    description: David shares a glimpse at what’s next for Memsource
+  - time: 4:15 pm
+    description: Q&A session
+  - time: 4:30 pm
+    description: Group photo followed by networking
+  - time: 5:00 pm
+    description: Closing remarks
+  - time: 6:00 pm
+    description: "[GALA conference welcome reception](https://www.gala-global.org/conference/gala-2018-boston/evening-activities)"
 ---
 Join our 8th **Memsource User Meetup** for a chance  to learn about the latest and upcoming developments at Memsource,  engage in conversation about industry trends, meet other Memsource  users, ask questions and provide feedback.
 
