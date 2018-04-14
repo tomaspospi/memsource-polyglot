@@ -81,3 +81,20 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: field_group
+  name: speakers
+  label: Speakers
+  fields:
+  - type: text
+    label: title
+    name: title
+  - type: field_group_list
+    name: speakers
+    label: Speakers
+    fields:
+    - type: text
+      name: name
+      label: Name
+    - type: text
+      name: description
+      label: Description
