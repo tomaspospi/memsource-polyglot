@@ -31,6 +31,7 @@ speakers:
   speakers:
   - name: David Canek
     description: CEO and Head of Product, Memsource
+    photo: "/uploads/2018/04/12/WP-DAVID-150x150.png"
   - name: Christophe Eyraud
     description: Solutions Architect, Semantix
 ---
