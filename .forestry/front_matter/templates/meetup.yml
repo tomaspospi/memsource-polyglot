@@ -100,3 +100,6 @@ fields:
     - type: text
       name: description
       label: Description
+    - type: file
+      label: photo
+      name: photo
