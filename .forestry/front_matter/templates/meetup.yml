@@ -104,3 +104,24 @@ fields:
     - type: file
       label: photo
       name: photo
+- type: field_group
+  name: program
+  label: Program
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: items
+    label: items
+    fields:
+    - type: text
+      name: time
+      label: time
+    - type: textarea
+      name: description
+      label: description
+      config:
+        wysiwyg: true
+        schema:
+          format: markdown
