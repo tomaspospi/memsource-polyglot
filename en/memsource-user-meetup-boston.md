@@ -10,7 +10,7 @@ location:
 permalink: user-meet-up-boston-2018
 lang: en
 layout: meetup
-register_now: Register Now 3
+register_now: Register Now
 extra_info: |-
   **Please also join us on Thursday, March 15, 7:00 pm at Hurricane’s for “A Bit o’ Craic,” with Translators Without Borders.**
 
@@ -25,7 +25,7 @@ register_form:
   company_name_label: Company Name
   job_title_label: Job Title
 contact_message: For further information, please contact us at [events@memsource.com](mailto:events@memsource.com)
-page_title: Memsource User Meetup Boston 333
+page_title: Memsource User Meetup Boston
 ---
 Join our 8th **Memsource User Meetup** for a chance  to learn about the latest and upcoming developments at Memsource,  engage in conversation about industry trends, meet other Memsource  users, ask questions and provide feedback.
 

@@ -1,5 +1,8 @@
 ---
+pages:
+- en/index.md
 hide_body: false
+is_partial: false
 fields:
 - type: text
   name: page_title

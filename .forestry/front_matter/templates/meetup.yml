@@ -1,5 +1,8 @@
 ---
+pages:
+- en/memsource-user-meetup-boston.md
 hide_body: false
+is_partial: false
 fields:
 - type: text
   name: page_title
