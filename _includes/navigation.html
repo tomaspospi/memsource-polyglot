@@ -1,0 +1,9 @@
+{%- for item in site.data.navigation.languages -%}
+    {%- if item.language == page.lang -%}
+        {%- for link in item.links -%}
+            <a class="page-link" href="{{ link.url | relative_url }}">
+                {{ link.title | escape }}
+            </a>
+        {%- endfor -%}
+    {%- endif -%}
+{%- endfor -%}
