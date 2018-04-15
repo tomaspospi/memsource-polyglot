@@ -1,0 +1,11 @@
+---
+layout: page
+---
+
+{% for p in page.paragraphs %}
+    <h3>{{ p.title }}</h3>
+    {% if p.image %}
+        <img class="floated-image {{ p.image.float }}" src="{{ p.image.path | relative_url }}" alt="{{ p.image.alt }}">
+    {% endif %}    
+    {{ p.text | markdownify }}
+{% endfor %}
