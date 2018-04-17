@@ -29,6 +29,9 @@ page_title: Memsource User Meetup Boston
 speakers:
   title: Speakers
   speakers:
+  - name: test
+    description: testsgfgd
+    photo: "/uploads/2018/04/12/TWB-Boston-Logo-300x252.png"
   - name: David Canek
     description: CEO and Head of Product, Memsource
     photo: "/uploads/2018/04/12/WP-DAVID-150x150.png"
@@ -42,12 +45,12 @@ program:
     description: Welcome refreshments
   - time: 3:15 pm
     description: Opening remarks
-  - time: 3:30 pm
-    description: "**Looking to the Future: AI-powered Features in Memsource** by Memsource
-      CEO David Canek"
   - time: 3:45 pm
     description: Exclusive **Case Study on Memsource AI-powered Non-translatables**
       by Semantix Solutions Architect Christophe Eyraud
+  - time: 3:30 pm
+    description: "**Looking to the Future: AI-powered Features in Memsource** by Memsource
+      CEO David Canek"
   - time: 4:00 pm
     description: David shares a glimpse at what’s next for Memsource
   - time: 4:15 pm
