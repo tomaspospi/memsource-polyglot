@@ -31,7 +31,7 @@ speakers:
   speakers:
   - name: test
     description: testsgfgd
-    photo: "/uploads/2018/04/12/TWB-Boston-Logo-300x252.png"
+    photo: ''
   - name: David Canek
     description: CEO and Head of Product, Memsource
     photo: "/uploads/2018/04/12/WP-DAVID-150x150.png"
