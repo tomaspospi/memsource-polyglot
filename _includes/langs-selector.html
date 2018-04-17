@@ -2,7 +2,15 @@
     {% for lang in site.languages %}
 
         <li>
-            <a {% if lang == site.active_lang %}style="font-weight: bold;"{% endif %} href="{% if lang == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ lang }}{{page.url}} {% endif %}">
+            {% unless page.layout == 'post' %}
+                <a {% if lang == site.active_lang %}style="font-weight: bold;"{% endif %} href="{% if lang == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ lang }}{{page.url}} {% endif %}">
+            {% else %}
+                {% assign index_suffix = '/' %}
+                {% unless lang == site.default_lang %}
+                    {% assign index_suffix = '/' | append: lang %}
+                {% endunless %}
+                <a {% if lang == site.active_lang %}style="font-weight: bold;"{% endif %} href=" {{ index_suffix | relative_url }}">
+            {% endunless %}
                 {% if lang == 'ja' %}
                     jp
                 {% else %}
