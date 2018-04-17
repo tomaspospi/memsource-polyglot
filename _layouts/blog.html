@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+{%- if page.page_title -%}
+    <h1>{{ page.page_title }}</h1>
+{%- endif -%}
+
+{% assign posts = site.posts | where: 'lang', site.active_lang %}
+
+<ul class="post-list">
+    {%- for post in posts -%}
+        <li>
+            <h3>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                    {% if post.image %}
+                        <img class="post-header-img" src="{{ post.image | relative_url }}" alt="">
+                    {% endif %}
+                    
+                    {{ post.title | escape }}
+                    
+                </a>
+
+                {%- assign date_format = site.minima.date_format | default: "%m / %d / %Y" -%}
+                <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+            </h3>
+            
+            {{ post.excerpt }}
+            
+        </li>
+    {%- endfor -%}
+</ul>
