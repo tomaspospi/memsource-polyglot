@@ -65,3 +65,11 @@ program:
 Join our 8th **Memsource User Meetup** for a chance  to learn about the latest and upcoming developments at Memsource,  engage in conversation about industry trends, meet other Memsource  users, ask questions and provide feedback.
 
 The event is free to attend and is open to all interested parties. Please [register](#register) below, and follow us on social media and visit our blog to stay up-to-date on all things Memsource.
+
+Join our 8th **Memsource User Meetup** for a chance  to learn about the latest and upcoming developments at Memsource,  engage in conversation about industry trends, meet other Memsource  users, ask questions and provide feedback.
+
+The event is free to attend and is open to all interested parties. Please [register](#register) below, and follow us on social media and visit our blog to stay up-to-date on all things Memsource.
+
+Join our 8th **Memsource User Meetup** for a chance  to learn about the latest and upcoming developments at Memsource,  engage in conversation about industry trends, meet other Memsource  users, ask questions and provide feedback.
+
+The event is free to attend and is open to all interested parties. Please [register](#register) below, and follow us on social media and visit our blog to stay up-to-date on all things Memsource.
