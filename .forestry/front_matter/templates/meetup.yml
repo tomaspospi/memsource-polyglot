@@ -5,10 +5,20 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
+  name: layout
+  label: layout
+  hidden: true
+  default: meetup
+  config:
+    required: true
+- type: text
   name: page_title
   label: Page title
   config:
     required: true
+- type: text
+  name: permalink
+  label: permalink
 - type: text
   label: event date
   name: event_date
@@ -28,9 +38,6 @@ fields:
   - type: text
     name: place
     label: place
-- type: text
-  name: permalink
-  label: permalink
 - type: select
   name: lang
   config:
@@ -41,15 +48,29 @@ fields:
     - ja
   label: lang
 - type: text
-  name: layout
-  label: layout
-  hidden: true
-  default: meetup
-  config:
-    required: true
-- type: text
   name: register_now
   label: register now
+- type: field_group
+  name: program
+  label: Program
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: items
+    label: items
+    fields:
+    - type: text
+      name: time
+      label: time
+    - type: textarea
+      name: description
+      label: description
+      config:
+        wysiwyg: true
+        schema:
+          format: markdown
 - type: textarea
   name: extra_info
   label: Extra info
@@ -57,6 +78,26 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: field_group
+  name: speakers
+  label: Speakers
+  fields:
+  - type: text
+    label: title
+    name: title
+  - type: field_group_list
+    name: speakers
+    label: Speakers
+    fields:
+    - type: text
+      name: name
+      label: Name
+    - type: text
+      name: description
+      label: Description
+    - type: file
+      label: photo
+      name: photo
 - type: field_group
   name: register_form
   label: Register form
@@ -83,44 +124,3 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-- type: field_group
-  name: speakers
-  label: Speakers
-  fields:
-  - type: text
-    label: title
-    name: title
-  - type: field_group_list
-    name: speakers
-    label: Speakers
-    fields:
-    - type: text
-      name: name
-      label: Name
-    - type: text
-      name: description
-      label: Description
-    - type: file
-      label: photo
-      name: photo
-- type: field_group
-  name: program
-  label: Program
-  fields:
-  - type: text
-    name: title
-    label: title
-  - type: field_group_list
-    name: items
-    label: items
-    fields:
-    - type: text
-      name: time
-      label: time
-    - type: textarea
-      name: description
-      label: description
-      config:
-        wysiwyg: true
-        schema:
-          format: markdown
