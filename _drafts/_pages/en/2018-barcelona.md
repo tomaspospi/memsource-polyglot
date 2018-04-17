@@ -9,16 +9,19 @@ location:
   url: www.barca.com
   directions: Street
   place: Place
-lang: ''
-register_now: ''
-extra_info: ''
+permalink: "/event/2018-barcelona"
+lang: en
+register_now: Register now
+extra_info: Memsource is proud to be partnering with [Translators Without Borders](https://www.translatorswithoutborders.org/) for
+  an evening of Irish music, drinks, giveaways, and fun! Come down and help raise
+  funds for a great cause.
 register_form:
   first_name_label: ''
   last_name_label: ''
   email_label: ''
   company_name_label: ''
   job_title_label: ''
-contact_message: ''
+contact_message: test
 speakers:
   title: ''
   speakers: []
