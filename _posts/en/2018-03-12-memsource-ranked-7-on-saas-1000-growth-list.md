@@ -22,13 +22,3 @@ With the growth, several new teams were formed with the goal of  expanding busin
 Read more about [Memsource’s exciting year](https://www.memsource.com/blog/2017/12/08/memsource-2017-record-year-new-teams/) and [listen to the webinar recording](https://register.gotowebinar.com/register/3146012116894640131) with David and several new team members.
 
 ![](/uploads/2018/04/10/Screen Shot 2018-04-03 at 16.39.24.png)
-
-Here's our logo (hover to see the title text):
-
-Inline-style:
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-Reference-style:
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2")
-
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/dHHmUF9gs70/0.jpg)](http://www.youtube.com/watch?v=dHHmUF9gs70)
