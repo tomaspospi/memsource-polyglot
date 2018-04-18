@@ -2,7 +2,7 @@
 ja:
 - identifier: 
   url: "/ja/blog/"
-  weight: 1
+  weight: 3
   title: "ブログ"
 - identifier: 
   url: "/ja/user-meet-up-boston-2018/"
@@ -10,7 +10,7 @@ ja:
   title: "ボストンミートアップ 2018"
 - identifier: 
   url: "/ja/"
-  weight: 3
+  weight: 1
   title: "ホームページ"
 en:
 - identifier: 
