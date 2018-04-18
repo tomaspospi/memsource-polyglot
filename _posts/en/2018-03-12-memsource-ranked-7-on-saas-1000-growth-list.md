@@ -3,7 +3,8 @@ layout: post
 title: Memsource Ranked 7 on SaaS 1000 Growth List
 date: 2018-03-12 16:25:00 +0000
 lang: en
-image: "/uploads/2018/04/05/SaaS-1000-Ranking-1.png"
+image: "/uploads/2018/04/18/SaaS-1000-Ranking-1.png"
+page_title: Memsource Ranked 7 on SaaS 1000 Growth List
 ---
 Memsource has been ranked the 7th fastest growing SaaS company and 4th fastest in Europe by the [SaaS 1000: Top SaaS Companies](http://saas1000.com/) list.
 
@@ -20,5 +21,3 @@ With the growth, several new teams were formed with the goal of  expanding busin
 “2017 was an exciting year for Memsource,” says CEO David Canek. “We  were able to welcome some really talented people to the company who are  excited to enhance the platform and add new features and services for  our customers in the localization industry. We’re looking forward to the  next 6 months and beyond.”
 
 Read more about [Memsource’s exciting year](https://www.memsource.com/blog/2017/12/08/memsource-2017-record-year-new-teams/) and [listen to the webinar recording](https://register.gotowebinar.com/register/3146012116894640131) with David and several new team members.
-
-![](/uploads/2018/04/10/Screen Shot 2018-04-03 at 16.39.24.png)
