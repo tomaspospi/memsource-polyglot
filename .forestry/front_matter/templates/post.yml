@@ -7,17 +7,6 @@ pages:
 hide_body: false
 is_partial: false
 fields:
-- type: text
-  name: page_title
-  label: Page title
-  config:
-    required: true
-- type: datetime
-  name: date
-  label: Date
-  config:
-    date_format: YYYY-MM-DD
-    required: true
 - type: select
   name: lang
   config:
@@ -29,6 +18,17 @@ fields:
     - ja
   label: Lang
   default: en
+- type: text
+  name: page_title
+  label: Page title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  config:
+    date_format: YYYY-MM-DD
+    required: true
 - type: file
   name: image
   label: image
