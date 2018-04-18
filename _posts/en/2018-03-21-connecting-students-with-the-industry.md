@@ -3,11 +3,12 @@ layout: post
 title: Connecting Students with the Industry
 date: 2018-03-21 15:48:52 +0000
 lang: en
-image: "/uploads/2018/04/05/Talent-Endorsement-Program-1.png"
+image: "/uploads/2018/04/18/Talent-Endorsement-Program-1.png"
+page_title: Connecting Students with the Industry
 ---
 Back in 2016, when I became responsible for the Memsource Academic  Edition and our partnerships with academic institutions in general, my  main goal was simple. I wanted to spread the love and present the  benefits of cooperating with Memsource to as many academic institutions  as possible.
 
-![](/uploads/2018/04/05/graph.png){:width="30%"}
+![](/uploads/2018/04/18/graph.png)
 
 As the number of universities offering training in Memsource grew – and  quite significantly, I must compliment myself, as it doubled from 56 to  103 in a year – the objectives began to shift. We used 2017 to better  understand our clients, the professors supporting our program, and  knowing how they worked with Memsource and how we could adapt the  program to better suit their expectations.
 
@@ -30,7 +31,7 @@ _–_ [Hana Laurenzo](https://www.linkedin.com/in/hanalaurenzo/), Founder and C
 
 The project was started with the help of Hana and the Teneo Linguistics  Company, as well as the two universities where the first student  participants came from: Middlebury Institute of International Studies at  Monterey and University of Puerto Rico.
 
-![](/uploads/2018/04/05/Hana-Laurenzo-Quote.png){:width="30%"}
+![](/uploads/2018/04/18/Hana-Laurenzo-Quote.png)
 
 Hana’s decision to join the pilot project was straightforward: “It  seems there simply is no downside! The linguists who work with us are  the pillar of our business. We rely on them day in and day out.  Therefore, we are always on the lookout for new talent and appreciate  being connected with students who, one day, may become an important  resource to us. We also invest a lot of effort into training and  educating those who work with us. So we have been on the same page with  Memsource from the start.”
 
@@ -42,7 +43,7 @@ _“The  cooperation has helped me practice with the program, and it has also  g
 
 Building on the positive feedback and invaluable experience we gained  during the pilot, we’re scaling it into a full-scale project this year.  This means that we will offer it to a larger number of both universities  and translation agencies.
 
-![](/uploads/2018/04/05/tag.png){:width="30%"}
+![](/uploads/2018/04/18/tag.png)
 
 Since we want to be able to ensure high level of knowledge and skills of  the students we promote, however, we have decided to limit the program  to professors and students meeting certain criteria:
 
