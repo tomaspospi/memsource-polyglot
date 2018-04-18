@@ -2,16 +2,6 @@
 hide_body: false
 is_partial: false
 fields:
-- type: text
-  name: page_title
-  label: Page title
-  config:
-    required: true
-- type: text
-  name: permalink
-  label: permalink
-  config:
-    required: true
 - type: select
   name: lang
   config:
@@ -29,3 +19,13 @@ fields:
   config:
     required: true
   default: ''
+- type: text
+  name: page_title
+  label: Page title
+  config:
+    required: true
+- type: text
+  name: permalink
+  label: permalink
+  config:
+    required: true
