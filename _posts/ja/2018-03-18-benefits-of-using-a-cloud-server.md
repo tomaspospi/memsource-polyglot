@@ -3,7 +3,8 @@ layout: post
 title: "クラウドに移行するべき5つの理由"
 date: 2018-03-18 16:25:00 +0000
 lang: ja
-image: "/uploads/2018/04/05/Cloud-benefits.png"
+image: "/uploads/2018/04/18/Cloud-benefits.png"
+page_title: "クラウドに移行するべき5つの理由"
 ---
 業務システムのクラウドへの移行がますます盛んになっています。アメリカの有力[経済誌フォーブスの予測](https://www.forbes.com/sites/louiscolumbus/2018/01/07/83-of-enterprise-workloads-will-be-in-the-cloud-by-2020/#f1924726261a)によると、2020年には企業のワークロードの83%がクラウド上で管理される見込みだそうです。
 
