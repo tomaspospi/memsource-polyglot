@@ -11,6 +11,15 @@ fields:
   default: meetup
   config:
     required: true
+- type: select
+  name: lang
+  config:
+    source:
+      type: simple
+    options:
+    - en
+    - ja
+  label: lang
 - type: text
   name: page_title
   label: Page title
@@ -38,15 +47,6 @@ fields:
   - type: text
     name: place
     label: place
-- type: select
-  name: lang
-  config:
-    source:
-      type: simple
-    options:
-    - en
-    - ja
-  label: lang
 - type: text
   name: register_now
   label: register now
