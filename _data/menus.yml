@@ -1,0 +1,15 @@
+en:
+  - title: "Home"
+    url: /
+  - title: "Boston meetup 2018"
+    url: /user-meet-up-boston-2018/
+  - title: "Blog"
+    url: /blog/
+
+ja:
+  - title: "ホームページ"
+    url: /ja/
+  - title: "ボストンミートアップ 2018"
+    url: /ja/user-meet-up-boston-2018/
+  - title: "ブログ"
+    url: /ja/blog/
