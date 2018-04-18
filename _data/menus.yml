@@ -1,15 +1,27 @@
-en:
-  - title: "Home"
-    url: /
-  - title: "Boston meetup 2018"
-    url: /user-meet-up-boston-2018/
-  - title: "Blog"
-    url: /blog/
-
+---
 ja:
-  - title: "ホームページ"
-    url: /ja/
-  - title: "ボストンミートアップ 2018"
-    url: /ja/user-meet-up-boston-2018/
-  - title: "ブログ"
-    url: /ja/blog/
+- identifier: 
+  url: "/ja/blog/"
+  weight: 1
+  title: "ブログ"
+- identifier: 
+  url: "/ja/user-meet-up-boston-2018/"
+  weight: 2
+  title: "ボストンミートアップ 2018"
+- identifier: 
+  url: "/ja/"
+  weight: 3
+  title: "ホームページ"
+en:
+- identifier: 
+  url: "/blog/"
+  weight: 3
+  title: Blog
+- identifier: 
+  url: "/user-meet-up-boston-2018/"
+  weight: 2
+  title: Boston meetup 2018
+- identifier: 
+  url: "/"
+  weight: 1
+  title: Home
