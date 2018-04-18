@@ -1,0 +1,38 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: page_title
+  label: Page title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  config:
+    date_format: YYYY-MM-DD
+    required: true
+- type: text
+- type: select
+  name: lang
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - en
+    - ja
+  label: Lang
+  default: en
+- type: file
+  name: image
+  label: image
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+  default: post
