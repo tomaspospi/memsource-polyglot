@@ -1,0 +1,60 @@
+---
+title: XXXXXXXXX XXXX XXXXXX XXXXXX
+date: 2018-04-12 21:27:16 +0000
+event_date: "XXXXXXX, 13 XXXXX 2018; 15:00-17:00"
+location:
+  name: XXXX X. XXXXX XXXXXXXX XXXXXXXX XXXXXXXXXX XXXXXX
+  url: "https://signatureboston.com/hynes"
+  directions: XXXX XX XXX XXXXXXXX XXXXXX XXXXX
+  place: XXXX 107
+permalink: "XXXX-XXXX-XX-XXXXXX-2018"
+lang: XX
+layout: XXXXXX
+register_now: XXXXXXXX XXX
+extra_info: "**XXXXXX XXXX XXXX XX XX XXXXXXXX, XXXXX 15, 7:00 XX XX XXXXXXXXX’X XXX “X XXX X’ XXXXX,” XXXX XXXXXXXXXXX XXXXXXX XXXXXXX.**\n\nXXXXXXXXX XX XXXXX XX XX XXXXXXXXXX XXXX [XXXXXXXXXXX XXXXXXX XXXXXXX](XXXXX://XXX.XXXXXXXXXXXXXXXXXXXXXXXXX.XXX) XXX XX XXXXXXX XX XXXXX XXXXX, XXXXXX, XXXXXXXXX, XXX XXX! XXXX XXXX XXX XXXX XXXXX XXXXX XXX X XXXXX XXXXX.\n\n[Google Map – Hurricane’s Boston](https://www.google.com/maps/place/Hurricane's+at+the+Garden/@42.3648176,-71.0629828,17z/data=!3m1!4b1!4m5!3m4!1s0x89e3708e325b05ad:0xe11ddd5e9c5ee75e!8m2!3d42.3648137!4d-71.0607941)"
+register_form:
+  form_name: XXXXXXXX
+  first_name_label: XXXXX XXXX
+  last_name_label: XXXX XXXX
+  email_label: XXXXX XXXXXXX
+  company_name_label: XXXXXXX XXXX
+  job_title_label: XXX XXXXX
+contact_message: "XXX XXXXXXX XXXXXXXXXXX, XXXXXX XXXXXXX XX XX [XXXXXX@XXXXXXXXX.XXX](XXXXXX:XXXXXX@XXXXXXXXX.XXX)"
+page_title: XXXXXXXXX XXXX XXXXXX XXXXXX
+speakers:
+  title: XXXXXXXX
+  speakers:
+  - name: XXXXX XXXXX
+    description: "XXX XXX XXXX XX XXXXXXX, XXXXXXXXX"
+    photo: "/XXXXXXX/2018/04/12/XX-XXXXX-150X150.XXX"
+  - name: XXXXXXXXXX XXXXXX
+    description: "XXXXXXXXX XXXXXXXXX, XXXXXXXX"
+    photo: "/uploads/2018/04/12/Christophe_Eyraud_2_circle-150x150.jpg"
+  - name: XXXX
+    description: XXXXXXXXX
+    photo: "/uploads/2018/04/12/Christophe_Eyraud_2_circle-150x150.jpg"
+program:
+  title: XXXXXXX
+  items:
+  - time: "3:00 XX"
+    description: XXXXXXX XXXXXXXXXXXX
+  - time: "3:15 XX"
+    description: XXXXXXX XXXXXXX
+  - time: "3:45 XX"
+    description: "XXXXXXXXX **XXXX XXXXX XX XXXXXXXXX XX-XXXXXXX XXX-XXXXXXXXXXXXX** XX XXXXXXXX XXXXXXXXX XXXXXXXXX XXXXXXXXXX XXXXXX"
+  - time: "3:30 XX"
+    description: "**XXXXXXX XX XXX XXXXXX: XX-XXXXXXX XXXXXXXX XX XXXXXXXXX** XX XXXXXXXXX XXX XXXXX XXXXX"
+  - time: "4:00 XX"
+    description: XXXXX XXXXXX X XXXXXXX XX XXXX’X XXXX XXX XXXXXXXXX
+  - time: "4:15 XX"
+    description: "X&X XXXXXXX"
+  - time: "4:30 XX"
+    description: XXXXX XXXXX XXXXXXXX XX XXXXXXXXXX
+  - time: "5:00 XX"
+    description: XXXXXXX XXXXXXX
+  - time: "6:00 XX"
+    description: "[GALA conference welcome reception](https://www.gala-global.org/conference/gala-2018-boston/evening-activities)"
+---
+XXXX XXX 8XX **XXXXXXXXX XXXX XXXXXX** XXX X XXXXXX  XX XXXXX XXXXX XXX XXXXXX XXX XXXXXXXX XXXXXXXXXXXX XX XXXXXXXXX,  XXXXXX XX XXXXXXXXXXXX XXXXX XXXXXXXX XXXXXX, XXXX XXXXX XXXXXXXXX  XXXXX, XXX XXXXXXXXX XXX XXXXXXX XXXXXXXX.
+
+XXX XXXXX XX XXXX XX XXXXXX XXX XX XXXX XX XXX XXXXXXXXXX XXXXXXX. XXXXXX [XXXXXXXX](#register) XXXXX, XXX XXXXXX XX XX XXXXXX XXXXX XXX XXXXX XXX XXXX XX XXXX XX-XX-XXXX XX XXX XXXXXX XXXXXXXXX.
